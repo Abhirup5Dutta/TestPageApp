@@ -14,9 +14,6 @@ function LineChart() {
         ],
         datasets: [
             {
-                label: 'Applications Received',
-            },
-            {
                 label: 'This Year',
                 data: [28, 35, 40, 30, 15, 65, 70],
                 borderColor: ['rgba(255, 206, 86, 0.2)'],

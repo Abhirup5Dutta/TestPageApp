@@ -5,13 +5,6 @@
 
 .lineChart {
   display: flex;
-  flex: 0.7;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgb(112, 111, 111);
-  padding: 15px;
-  border-radius: 20px;
-  margin: 20px;
 }
 
 .linerProgress {
@@ -53,4 +46,35 @@
 
 .linerProgress > .progress5 {
   color: rgb(166, 61, 180);
+}
+
+.chartBox {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  padding: 15px;
+  justify-content: center;
+  border: 1px solid rgb(112, 111, 111);
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.chartBox > .chartHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.chartRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chartRight > .MuiSvgIcon-root {
+  margin: 8px;
+  cursor: pointer;
 }

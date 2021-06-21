@@ -3,7 +3,9 @@
   flex-direction: column;
   margin-bottom: 15px;
   padding-top: 10px;
-  width: 92%;
+  width: 88%;
+  right: 0;
+  position: absolute;
 }
 
 .pageHeader__top {

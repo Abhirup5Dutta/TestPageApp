@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-/* .app > .left {
+.app > .left {
   display: flex;
   flex: 0.1;
 }
@@ -17,4 +17,4 @@
 .app > .right {
   display: flex;
   flex: 0.9;
-} */
+}

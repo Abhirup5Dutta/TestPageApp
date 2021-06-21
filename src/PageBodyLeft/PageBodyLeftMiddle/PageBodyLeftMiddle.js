@@ -3,13 +3,27 @@ import LineChart from './LineChart'
 import './PageBodyLeftMiddle.css';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import Progress from './Progress';
+import MoreVertIcon from '@material-ui/icons/MoreVert';
+import CreateNewFolderIcon from '@material-ui/icons/CreateNewFolder';
 
 function PageBodyLeftMiddle() {
 
     return (
         <div className='pageBodyLeftMiddle'>
-            <div className="lineChart">
-                <LineChart />
+            <div className="chartBox">
+                <div className="chartHead">
+                    <h3>Applications Received</h3>
+                    <div className="chartRight">
+                        < CreateNewFolderIcon />
+                        <h6>
+                            Download Report
+                        </h6>
+                        < MoreVertIcon />
+                    </div>
+                </div>
+                <div className="lineChart">
+                    <LineChart />
+                </div>
             </div>
             <div className="linerProgress">
                 <h4>Total Applications</h4>

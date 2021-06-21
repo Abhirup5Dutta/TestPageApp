@@ -13,7 +13,7 @@ function LeftBar() {
         <div className='leftBar'>
             <div className="leftAbove">
                 <div className='logo'>
-                    <img src="https://lh3.googleusercontent.com/proxy/A-bZcLdAk1ISL1f3EGF-TQLtEoota6O2JwsNJw0rF1GXYSVbg8maLgiOjCJBd-esyaj39v1dI25f9CS4mHPC4H99ue9AZus_VPdF1sraczMNQw1yoa91lNjfCA" alt="Company Logo" />
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/shazam-1-722737.png" alt="Company Logo" />
                 </div>
                 < HomeIcon />
                 < AssessmentIcon />

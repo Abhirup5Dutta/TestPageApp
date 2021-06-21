@@ -1,0 +1,4 @@
+.pageBodyLeft {
+  display: flex;
+  flex-direction: column;
+}

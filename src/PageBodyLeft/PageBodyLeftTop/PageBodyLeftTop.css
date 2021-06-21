@@ -1,0 +1,143 @@
+.pageBodyleftTop {
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+.firstCard {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgb(112, 111, 111);
+  border-radius: 30px;
+  margin: 30px;
+}
+
+.firstCard:hover {
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  transform-origin: top left 60px;
+  transform: scale(1.1);
+  color: white;
+  background-color: rgb(5, 126, 238);
+  border-radius: 35px;
+  box-shadow: 0 0 50px rgba(8, 8, 8, 0.2);
+}
+
+.cardLeft {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+}
+
+.cardHead {
+  color: white;
+  background: transparent;
+}
+
+.cardLeft > h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+  background: transparent;
+}
+
+.firstCard > .cardLeft > small {
+  color: rgb(201, 16, 201);
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.cardLeft > small > span {
+  background: transparent;
+}
+
+.cardLeft > small > .MuiSvgIcon-root {
+  background: transparent;
+}
+
+.cardRight {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: transparent;
+}
+
+.cardRight > .back {
+  background: transparent;
+}
+
+.cardRight > .dots {
+  margin-left: 100px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.secondCard {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+  justify-content: space-around;
+  border: 0.5px solid rgb(112, 111, 111);
+  border-radius: 30px;
+  margin: 30px;
+}
+
+.secondCard:hover {
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  transform-origin: top left 60px;
+  transform: scale(1.1);
+  color: white;
+  background-color: rgb(5, 126, 238);
+  border-radius: 35px;
+  box-shadow: 0 0 50px rgba(8, 8, 8, 0.2);
+}
+
+.secondCard > .cardLeft > small {
+  color: #35db3a;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.thirdCard {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+  justify-content: space-around;
+  border: 0.5px solid rgb(112, 111, 111);
+  border-radius: 30px;
+  margin: 30px;
+}
+
+.thirdCard:hover {
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  transform-origin: top left 60px;
+  transform: scale(1.1);
+  color: white;
+  background-color: rgb(5, 126, 238);
+  border-radius: 35px;
+  box-shadow: 0 0 50px rgba(8, 8, 8, 0.2);
+}
+
+.thirdCard > .cardLeft > small {
+  color: #e80e0e;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}

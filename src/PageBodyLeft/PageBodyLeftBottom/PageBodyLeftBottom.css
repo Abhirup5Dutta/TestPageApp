@@ -1,0 +1,155 @@
+.pageBodyLeftBottom {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.referals {
+  display: flex;
+  flex: 0.7;
+  flex-direction: column;
+  padding: 15px;
+  border: 1px solid rgb(112, 111, 111);
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.refHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.refHead > h3 {
+  color: white;
+}
+
+.refRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.refRightdiv {
+  margin: 8px;
+}
+
+.red {
+  color: red;
+}
+
+.divBars {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divSec > h4 {
+  color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.divSec > h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+  background: transparent;
+}
+
+.divBars > .divSec > small {
+  color: rgb(16, 179, 201);
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.divSec > small > span {
+  background: transparent;
+}
+
+.divSec > small > .MuiSvgIcon-root {
+  background: transparent;
+}
+
+.divBars > .v1 {
+  border-left: 2px solid rgb(112, 111, 111);
+  height: 50px;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btns > .leftBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  border-radius: 8px;
+  height: 45px;
+  width: 40%;
+  margin: 40px;
+  background-color: rgb(0, 158, 197);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.btns > .leftBox:hover {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.1);
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(8, 8, 8, 0.2);
+}
+
+.btns > .rightBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  border-radius: 8px;
+  height: 45px;
+  width: 40%;
+  margin: 40px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.btns > .rightBox:hover {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.1);
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(8, 8, 8, 0.2);
+}
+
+.piechart {
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+  padding: 15px;
+  border: 1px solid rgb(112, 111, 111);
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.piechart > .pieHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background: transparent;
+}
+
+.piechart > .pieHead > .dots:hover {
+  cursor: pointer;
+}

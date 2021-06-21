@@ -1,0 +1,101 @@
+.pageHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  width: 92%;
+}
+
+.pageHeader__top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.pageHeader__top > p {
+  color: white;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.pageHeader__top > .MuiSvgIcon-root {
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.pageHeader__down {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.PageHeader__down__left > h3,
+h5 {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.pageHeader__date {
+  color: rgb(8, 204, 253);
+  cursor: pointer;
+}
+
+.PageHeader__down__right {
+  display: flex;
+  align-items: center;
+}
+
+.PageHeader__down__right > button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: rgb(8, 204, 253);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.rightbox:hover {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.1);
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(8, 8, 8, 0.2);
+}
+
+.right__add__member {
+  background: none;
+}
+
+.rightbox > span {
+  background: none;
+}
+
+.pageHeader__search {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-right: 15px;
+  padding: 3px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.pageHeader__search > .MuiSvgIcon-root {
+  background: none;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.pageHeader__search > input {
+  background-color: transparent;
+  outline-width: 0;
+  color: white;
+  border: none;
+}

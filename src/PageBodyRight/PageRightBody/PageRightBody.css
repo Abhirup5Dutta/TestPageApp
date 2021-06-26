@@ -1,0 +1,120 @@
+.pageRightBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(112, 111, 111);
+  padding: 5px;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.pageRightBody > .rightHead {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  color: white;
+  margin-top: 5%;
+}
+
+.pageRightBody > .rightHead > .MuiSvgIcon-root {
+  cursor: pointer;
+  border-radius: 15px;
+  margin-right: 20px;
+  background-color: rgb(46, 46, 46);
+}
+
+.pageRightBody > .rightHead > .rightHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 7%;
+}
+
+.pageRightBody > img {
+  border-radius: 20px;
+  margin-top: 10%;
+  width: 100%;
+}
+
+.pageRightBody > .rightBottom {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: rgb(49, 49, 49);
+  justify-content: space-between;
+  height: 100%;
+  width: 98%;
+}
+
+.rightBottom > .rightBottomHead {
+  background: transparent;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 10% 0; */
+}
+
+.rightBottom > .rightBottomHead > .MuiSvgIcon-root,
+h3 {
+  background: transparent;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  /* margin: 10% 0; */
+}
+
+.user > .userLeft {
+  color: white;
+  background: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: transparent;
+}
+
+.user > .userLeft > .userDetails {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+
+.user > .userLeft > .userDetails > small > .applied__for {
+  color: rgb(8, 204, 253);
+  background: transparent;
+}
+
+.user > .userLeft > .userDetails > small {
+  background-color: transparent;
+}
+
+.user > .userLeft > .userDetails > h5 {
+  background: transparent;
+}
+
+.user > .userLeft > .MuiSvgIcon-root {
+  background: transparent;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.user > .userRight {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  background: transparent;
+}
+
+.user > .userRight > .MuiSvgIcon-root {
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(109, 108, 108);
+}

@@ -93,7 +93,9 @@ function PageBodyLeftBottom() {
                     </h3>
                     < MoreHorizIcon className='dots' />
                 </div>
-                <DoughnutChart />
+                <div className="doughnut">
+                    <DoughnutChart />
+                </div>
             </div>
         </div>
     )

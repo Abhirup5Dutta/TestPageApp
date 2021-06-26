@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import PageWhole from './PageWhole/PageWhole';
 import LeftBar from './LeftBar/LeftBar';
+import PageBodyLeft from './PageBodyLeft/PageBodyLeft';
+import PageBodyRight from './PageBodyRight/PageBodyRight';
 
 function App() {
   return (
@@ -10,8 +11,10 @@ function App() {
         < LeftBar />
       </div>
       <div className="right">
-
-        <PageWhole />
+        <PageBodyLeft />
+      </div>
+      <div className="rightMost">
+        <PageBodyRight />
       </div>
     </div>
   );

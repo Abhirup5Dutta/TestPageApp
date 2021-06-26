@@ -1,0 +1,19 @@
+.pageHeader__down__left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  margin-left: 38px;
+}
+
+.pageHeader__down__left > h3,
+h5 {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: large;
+}
+
+.pageHeader__date {
+  color: rgb(8, 204, 253);
+  cursor: pointer;
+}

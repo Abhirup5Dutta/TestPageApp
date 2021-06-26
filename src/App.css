@@ -10,11 +10,15 @@
 }
 
 .app > .left {
-  display: flex;
-  flex: 0.1;
+  flex: 0.05;
+  margin-left: 2%;
+  left: 0;
 }
 
 .app > .right {
-  display: flex;
-  flex: 0.9;
+  flex: 0.6;
+}
+
+.app > .rightMost {
+  flex: 0.3;
 }

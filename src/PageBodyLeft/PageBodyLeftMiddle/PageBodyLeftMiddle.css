@@ -1,6 +1,7 @@
 .pageBodyLeftMiddle {
   display: flex;
-  margin-left: 20px;
+  margin-left: 1%;
+  margin-right: 0.5%;
 }
 
 .lineChart {
@@ -9,12 +10,16 @@
 
 .linerProgress {
   display: flex;
-  flex: 0.3;
+  flex: 0.33;
   flex-direction: column;
   border: 1px solid rgb(112, 111, 111);
   border-radius: 20px;
   padding: 15px;
-  margin: 20px;
+  margin-left: 2.3%;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  justify-content: space-around;
 }
 
 .linerProgress > h4 {
@@ -51,12 +56,13 @@
 .chartBox {
   display: flex;
   flex-direction: column;
-  flex: 0.7;
+  flex: 0.67;
   padding: 15px;
   justify-content: center;
   border: 1px solid rgb(112, 111, 111);
   border-radius: 20px;
   margin: 10px;
+  max-width: 70%;
 }
 
 .chartBox > .chartHead {
@@ -77,4 +83,16 @@
 .chartRight > .MuiSvgIcon-root {
   margin: 8px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1516px) {
+  .pageBodyLeftMiddle {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .linerProgress {
+    width: 70%;
+  }
 }

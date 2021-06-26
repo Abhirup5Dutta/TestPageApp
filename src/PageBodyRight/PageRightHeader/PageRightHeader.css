@@ -1,17 +1,13 @@
-.pageHeader {
+.pageRightHeader {
   display: flex;
   flex-direction: column;
-  margin-bottom: 15px;
-  padding-top: 10px;
-  width: 88%;
-  right: 0;
-  position: absolute;
 }
 
 .pageHeader__top {
   display: flex;
+  padding: 5px;
+  margin-left: 45%;
   align-items: center;
-  justify-content: flex-end;
 }
 
 .pageHeader__top > p {
@@ -21,37 +17,20 @@
 }
 
 .pageHeader__top > .MuiSvgIcon-root {
-  padding: 5px;
+  margin: 5px;
   cursor: pointer;
   color: white;
+  background: transparent;
 }
 
-.pageHeader__down {
-  margin-left: 20px;
+.pageHeader__down__right {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 10px;
-}
-
-.PageHeader__down__left > h3,
-h5 {
-  display: flex;
-  align-items: center;
-  color: white;
-}
-
-.pageHeader__date {
-  color: rgb(8, 204, 253);
-  cursor: pointer;
-}
-
-.PageHeader__down__right {
-  display: flex;
+  margin: 5px;
   align-items: center;
 }
 
-.PageHeader__down__right > button {
+.pageHeader__down__right > button {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -84,20 +63,23 @@ h5 {
   align-items: center;
   color: white;
   padding-right: 15px;
-  padding: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: black;
   border-radius: 5px;
+  width: 90%;
+  height: 47%;
 }
 
 .pageHeader__search > .MuiSvgIcon-root {
   background: none;
-  padding-right: 10px;
+  padding-right: 30px;
   cursor: pointer;
 }
 
 .pageHeader__search > input {
   background-color: transparent;
   outline-width: 0;
-  color: white;
   border: none;
+  font-size: larger;
 }

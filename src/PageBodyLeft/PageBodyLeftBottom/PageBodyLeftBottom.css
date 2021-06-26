@@ -1,13 +1,13 @@
 .pageBodyLeftBottom {
   display: flex;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-left: 0.2%;
 }
 
 .referals {
   display: flex;
-  flex: 0.7;
+  flex: 0.66;
   flex-direction: column;
+  justify-content: space-around;
   padding: 15px;
   border: 1px solid rgb(112, 111, 111);
   border-radius: 20px;
@@ -77,11 +77,6 @@
   background: transparent;
 }
 
-.divBars > .v1 {
-  border-left: 2px solid rgb(112, 111, 111);
-  height: 50px;
-}
-
 .btns {
   display: flex;
   align-items: center;
@@ -134,12 +129,16 @@
 
 .piechart {
   display: flex;
-  flex: 0.3;
+  flex: 0.34;
   flex-direction: column;
   padding: 15px;
   border: 1px solid rgb(112, 111, 111);
   border-radius: 20px;
-  margin: 20px;
+  /* margin: 1%; */
+  margin-top: 1%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  margin-left: 1%;
 }
 
 .piechart > .pieHead {
@@ -148,8 +147,25 @@
   justify-content: space-between;
   color: white;
   background: transparent;
+  margin-bottom: 5%;
 }
 
 .piechart > .pieHead > .dots:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1516px) {
+  .pageBodyLeftBottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .referals {
+    width: 70%;
+  }
+
+  .piechart {
+    width: 70%;
+  }
 }

@@ -146,5 +146,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .firstCard {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .secondCard {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .thirdCard {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .cardRight > .dots {
+    margin-left: 150px;
   }
 }

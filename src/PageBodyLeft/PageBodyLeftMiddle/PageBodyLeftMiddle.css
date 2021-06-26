@@ -90,9 +90,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .chartBox {
+    max-width: 85%;
   }
 
   .linerProgress {
-    width: 70%;
+    width: 85%;
+    margin: 0;
   }
 }

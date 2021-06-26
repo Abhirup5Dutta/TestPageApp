@@ -118,3 +118,14 @@ h3 {
   margin: 5px;
   background-color: rgb(109, 108, 108);
 }
+
+@media only screen and (max-width: 1516px) {
+  .pageRightBody {
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  .user {
+    margin: 10% 0;
+  }
+}

@@ -83,3 +83,9 @@
   border: none;
   font-size: larger;
 }
+
+@media only screen and (max-width: 1516px) {
+  .pageHeader__down__right {
+    display: none;
+  }
+}

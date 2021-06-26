@@ -60,3 +60,9 @@
   padding-top: 10px;
   padding-right: 10px;
 }
+
+@media only screen and (max-width: 1516px) {
+  .leftBar {
+    display: none;
+  }
+}

@@ -17,3 +17,27 @@ h5 {
   color: rgb(8, 204, 253);
   cursor: pointer;
 }
+
+.userdet {
+  display: none;
+}
+
+@media only screen and (max-width: 1516px) {
+  .pageHeader__down__left {
+    /* margin-left: 4%; */
+  }
+
+  .pageMob {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    margin-left: 4%;
+    width: 75%;
+  }
+
+  .userdet {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

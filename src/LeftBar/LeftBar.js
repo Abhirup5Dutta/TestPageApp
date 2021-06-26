@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './LeftBar.css';
 import HomeIcon from '@material-ui/icons/Home';
 import AssessmentIcon from '@material-ui/icons/Assessment';

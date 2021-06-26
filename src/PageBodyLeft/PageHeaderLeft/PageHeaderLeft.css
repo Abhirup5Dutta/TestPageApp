@@ -18,15 +18,15 @@ h5 {
   cursor: pointer;
 }
 
+.logo {
+  display: none;
+}
+
 .userdet {
   display: none;
 }
 
 @media only screen and (max-width: 1516px) {
-  .pageHeader__down__left {
-    /* margin-left: 4%; */
-  }
-
   .pageMob {
     display: flex;
     /* align-items: center; */
@@ -39,5 +39,22 @@ h5 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-right: 10px;
   }
 }

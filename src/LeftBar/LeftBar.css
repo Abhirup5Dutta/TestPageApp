@@ -45,14 +45,15 @@
   color: rgb(0, 123, 180);
 }
 
-.logo img {
+.leftAbove > .logo img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
 }
 
-.logo {
+.leftAbove > .logo {
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 35px;
